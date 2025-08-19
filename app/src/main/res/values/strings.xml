@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">StackOverflowApp</string>
+    <string name="asked">Asked</string>
+    <string name="answers">Answers</string>
+    <string name="votes">Votes</string>
+    <string name="active">Active</string>
+    <string name="oldest">Oldest</string>
+    <string name="logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="no_network">No Internet Connection</string>
+    <string name="please_check_connection">Please check your internet connection and try again.</string>
+    <string name="ok">OK</string>
+    <string name="no_results_found">No results found</string>
+    <string name="loading">Loading</string>
+    <string name="error_occurred">An error occurred</string>
+
+    <!-- Repository error messages -->
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="empty_response">Empty response</string>
+    <string name="search_failed">Search failed: %1$s</string>
+    <string name="network_error">Network error: %1$s</string>
+    <string name="failed_to_load_answers">Failed to load answers: %1$s</string>
+    <string name="failed_to_load_questions">Failed to load questions: %1$s</string>
+    <string name="question_not_found">Question not found</string>
+    <string name="failed_to_load_question">Failed to load question: %1$s</string>
+
+    <!-- Question components -->
+    <string name="question_prefix">Q: </string>
+    <string name="accepted_answer">Accepted Answer</string>
+    <string name="answers_count">%1$d answers</string>
+    <string name="votes_count">%1$d votes</string>
+    <string name="views_count">%1$d views</string>
+    <string name="go_to_details">Go to details</string>
+    <string name="by">by </string>
+
+    <!-- Detail screen components -->
+    <string name="more_info">More Info</string>
+    <string name="back">Back</string>
+    <string name="asked_formatted">Asked </string>
+    <string name="viewed_formatted">Viewed </string>
+    <string name="times">times</string>
+    <string name="user_avatar">User avatar</string>
+    <string name="checkmark">✓</string>
+    <string name="votes_label">Votes</string>
+</resources>
