@@ -44,6 +44,7 @@ The project includes comprehensive unit and UI tests:
 4. Run tests using `./gradlew testDebugUnitTest`.
 
 ## Notes
+- The installation file can be found in the ``build-file`` directory in the root of the project.
 - The app requires internet access to fetch data from Stack Overflow.
 - API rate limits may apply.
 - All static strings are managed via `strings.xml` for localization support.
