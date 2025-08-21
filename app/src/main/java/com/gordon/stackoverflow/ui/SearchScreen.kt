@@ -68,6 +68,9 @@ import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import com.gordon.stackoverflow.data.NetworkModule
+import com.gordon.stackoverflow.ui.components.ErrorCard
+import com.gordon.stackoverflow.ui.components.LoaderOverlay
+import com.gordon.stackoverflow.ui.components.QuestionList
 import com.gordon.stackoverflow.viewmodel.SearchViewModel
 import com.gordon.stackoverflow.viewmodel.ViewModelFactory
 import com.gordon.stackoverflowapp.R
@@ -328,13 +331,13 @@ fun SearchScreen(navController: NavController) {
                         searchViewModel.refreshQuestions()
                     }
                 )
-                com.gordon.stackoverflow.ui.components.ErrorCard(errorMessage)
-                com.gordon.stackoverflow.ui.components.QuestionList(
+                ErrorCard(errorMessage)
+                QuestionList(
                     questions = searchResults,
                     onQuestionClick = { question -> navController.navigate("detail/${question.question_id}") }
                 )
             }
-            com.gordon.stackoverflow.ui.components.LoaderOverlay(isLoading)
+            LoaderOverlay(isLoading)
             if (showNetworkDialog) {
                 NoNetworkDialog(onDismiss = { searchViewModel.dismissNetworkDialog() })
             }
