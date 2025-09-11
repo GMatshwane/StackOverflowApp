@@ -73,6 +73,7 @@ dependencies {
 
     // PrettyTime for human-friendly date formatting
     implementation("org.ocpsoft.prettytime:prettytime:5.0.6.Final")
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
 
     // Keep existing test dependencies
     testImplementation(libs.junit)

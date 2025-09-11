@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StackOverflowApp</string>
+    <string name="asked">Preguntado</string>
+    <string name="answers">Respuestas</string>
+    <string name="votes">Votos</string>
+    <string name="active">Activo</string>
+    <string name="oldest">Más antiguo</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="search">Buscar</string>
+    <string name="no_network">Sin conexión a Internet</string>
+    <string name="please_check_connection">Por favor, verifique su conexión a Internet e intente nuevamente.</string>
+    <string name="ok">OK</string>
+    <string name="no_results_found">No se encontraron resultados</string>
+    <string name="loading">Cargando</string>
+    <string name="error_occurred">Ocurrió un error</string>
+
+    <!-- Repository error messages -->
+    <string name="no_internet_connection">Sin conexión a Internet</string>
+    <string name="empty_response">Respuesta vacía</string>
+    <string name="search_failed">Búsqueda fallida: %1$s</string>
+    <string name="network_error">Error de red: %1$s</string>
+    <string name="failed_to_load_answers">Error al cargar respuestas: %1$s</string>
+    <string name="failed_to_load_questions">Error al cargar preguntas: %1$s</string>
+    <string name="question_not_found">Pregunta no encontrada</string>
+    <string name="failed_to_load_question">Error al cargar la pregunta: %1$s</string>
+
+    <!-- Question components -->
+    <string name="question_prefix">P: </string>
+    <string name="accepted_answer">Respuesta aceptada</string>
+    <string name="answers_count">%1$d respuestas</string>
+    <string name="votes_count">%1$d votos</string>
+    <string name="views_count">%1$d visualizaciones</string>
+    <string name="go_to_details">Ir a detalles</string>
+    <string name="by">por </string>
+
+    <!-- Detail screen components -->
+    <string name="more_info">Más información</string>
+    <string name="back">Volver</string>
+    <string name="asked_formatted">Preguntado </string>
+    <string name="viewed_formatted">Visto </string>
+    <string name="times">veces</string>
+    <string name="user_avatar">Avatar de usuario</string>
+    <string name="checkmark">✓</string>
+    <string name="votes_label">Votos</string>
+</resources>
+
